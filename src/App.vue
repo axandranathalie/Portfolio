@@ -6,6 +6,7 @@ import AboutMe from "./components/AboutMe.vue";
 import TechSection from "./components/TechSection.vue";
 import ProjectsSection from "./components/ProjectsSection.vue";
 import SkillsSection from "./components/SkillsSection.vue";
+import ContactSection from "./components/ContactSection.vue";
 </script>
 
 <template>
@@ -16,7 +17,8 @@ import SkillsSection from "./components/SkillsSection.vue";
       <AboutMe />
       <TechSection />
       <ProjectsSection />
-      <SkillsSection /> 
+      <SkillsSection />
+      <ContactSection />
     </header>
 
     <RouterView />
