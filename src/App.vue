@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 import MainHeader from "./components/MainHeader.vue";
 import LanguageSwitcher from "./components/LanguageSwitcher.vue";
 import AboutMe from "./components/AboutMe.vue";
+import TechSection from "./components/TechSection.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import AboutMe from "./components/AboutMe.vue";
       <MainHeader />
       <LanguageSwitcher />
       <AboutMe />
+      <TechSection />
     </header>
 
     <RouterView />
