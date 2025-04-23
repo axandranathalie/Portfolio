@@ -1,6 +1,6 @@
 <template>
   <section class="tech-section">
-    <h2 class="tech-title">Tech</h2>
+    <h2 class="tech-title">Tekniker</h2>
     <div class="tech-icons">
       <div class="row">
         <img src="/src/assets/svg/html-5-svgrepo-com.svg" alt="HTML" />
