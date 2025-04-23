@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import MainHeader from "./components/MainHeader.vue";
 import LanguageSwitcher from "./components/LanguageSwitcher.vue";
+import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import LanguageSwitcher from "./components/LanguageSwitcher.vue";
     <header>
       <MainHeader />
       <LanguageSwitcher />
+      <AboutMe />
     </header>
 
     <RouterView />
@@ -29,7 +31,7 @@ html, body {
 }
 
 body {
-  background-color: #fff; // eller vilken färg du vill
+  background-color: #EAE2D2;
 }
 </style>
 

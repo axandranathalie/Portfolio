@@ -20,6 +20,7 @@
         <h1>{{ $t('intro') }}</h1>
       </p>
     </div>
+    <div class="bottom-border"></div> 
   </header>
 </template>
 
@@ -59,7 +60,7 @@ header {
   object-fit: cover;
   border: 4px solid #8B7E65;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  margin-top: -80px; // Flytta upp halva sin egen höjd
+  margin-top: -80px;
   margin-bottom: 1rem;
   position: relative;
   z-index: 2;
@@ -72,6 +73,14 @@ header {
     padding: 0.5rem 1rem;
     border-radius: 8px;
     max-width: 90%;
+    margin-bottom: 20px;
   }
 }
+
+.bottom-border {
+  width: 100%;
+  height: 4px;
+  background-color: #8B7E65;
+}
+
 </style>
