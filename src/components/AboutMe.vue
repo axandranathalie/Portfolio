@@ -28,8 +28,8 @@
   border: 2px solid #CEAA1B;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
-  width: 150px; // <-- Välj en fast bredd
-  text-align: center; // Så texten centreras i boxen
+  width: 200px;
+  text-align: center;
 
   h2 {
     margin: 0;

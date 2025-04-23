@@ -18,54 +18,53 @@
         <img src="/src/assets/svg/figma-svgrepo-com.svg" alt="Figma" />
       </div>
     </div>
-    <!-- Lägg till bottom-border här -->
     <div class="bottom-border"></div>
   </section>
 </template>
 
 <style lang="scss" scoped>
 .tech-section {
-  text-align: center; /* Centrerar hela sektionen */
-  margin: 2rem 0; /* Lite avstånd ovan och nedan */
+  text-align: center;
+  margin: 2rem 0;
 }
 
 .tech-title {
-  background-color: #9BCFF6; /* Boxens bakgrundsfärg */
-  border: 2px solid #3D65E9; /* Ramfärg runt boxen */
-  display: inline-block; /* Gör att boxen anpassar sig efter innehållet */
+  background-color: #9BCFF6;
+  border: 2px solid #3D65E9;
+  display: inline-block;
   padding: 0.5rem 1rem;
   font-size: 1.8rem;
-  margin-bottom: 2rem; /* Avstånd till ikonerna */
-  width: 150px; // <-- Välj en fast bredd
-  text-align: center; // Så texten centreras i boxen
+  margin-bottom: 2rem;
+  width: 200px;
+  text-align: center;
 }
 
 .tech-icons {
   display: flex;
-  flex-direction: column; /* Ser till att vi får rader */
-  justify-content: center; /* Centrerar horisontellt */
-  gap: 1rem; /* Avstånd mellan raderna */
-  margin-bottom: 2rem; /* Avstånd under ikonerna */
-  padding-bottom: 2rem; /* Lite extra padding under strecket */
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .row {
   display: flex;
-  justify-content: center; /* Centrerar ikonerna horisontellt */
-  gap: 1rem; /* Avstånd mellan ikonerna */
+  justify-content: center;
+  gap: 1rem;
 }
 
 .tech-icons img {
-  width: 50px; /* Storlek på ikonerna */
+  width: 50px;
   height: 50px;
   object-fit: contain;
 }
 
-/* Bottom border */
+
 .bottom-border {
   width: 100%;
   height: 4px;
-  background-color: #8B7E65; /* Färg på linjen */
-  margin-bottom: 20px; /* Lite avstånd under linjen */
+  background-color: #8B7E65;
+  margin-bottom: 20px;
 }
 </style>

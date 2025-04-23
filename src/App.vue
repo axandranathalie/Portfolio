@@ -4,6 +4,7 @@ import MainHeader from "./components/MainHeader.vue";
 import LanguageSwitcher from "./components/LanguageSwitcher.vue";
 import AboutMe from "./components/AboutMe.vue";
 import TechSection from "./components/TechSection.vue";
+import ProjectsSection from "./components/ProjectsSection.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import TechSection from "./components/TechSection.vue";
       <LanguageSwitcher />
       <AboutMe />
       <TechSection />
+      <ProjectsSection />
     </header>
 
     <RouterView />
