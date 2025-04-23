@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import { useI18n } from "vue-i18n"; // Importera useI18n för att hantera språket
+import MainHeader from "./components/MainHeader.vue";
 
 // Få tillgång till $i18n och metoder från vue-i18n
 const { t, locale } = useI18n();
@@ -16,6 +17,7 @@ const changeLanguage = (event: Event) => {
   <div>
     <!-- Språkväxlare -->
     <header>
+      <MainHeader />
       <div class="wrapper">
         <select @change="changeLanguage" v-model="locale">
           <option value="sv">Svenska</option>
@@ -26,7 +28,7 @@ const changeLanguage = (event: Event) => {
 
     <!-- Använda översättningar -->
     <div>
-      <h1>{{ t('välkommen') }}</h1>
+      <h1>{{ t('Welcome') }}</h1>
     </div>
 
     <!-- Vue Router View för dynamiska sidor -->
