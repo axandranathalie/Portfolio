@@ -14,13 +14,41 @@
 header {
   position: relative;
   width: 100%;
-  height: 145px;;
-}
-
-img {
-  width: 100%;
   height: auto;
-  object-fit: cover;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }
 
+
+
+// @media screen and (min-width: 768px) {
+//   header {
+//     width: 100%;
+//     height: 445px;
+
+//     img {
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 1024px) {
+//   header {
+//     width: 100%;
+//     height: 690px;
+
+//     img {
+//       width: 100%;
+//       height: 500px;
+//       object-fit: cover;
+//     }
+//   }
+// }
 </style>
