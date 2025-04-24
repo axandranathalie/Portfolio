@@ -7,6 +7,7 @@ import TechSection from "./components/TechSection.vue";
 import ProjectsSection from "./components/ProjectsSection.vue";
 import SkillsSection from "./components/SkillsSection.vue";
 import ContactSection from "./components/ContactSection.vue";
+import SocialLinks from "./components/SocialLinks.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import ContactSection from "./components/ContactSection.vue";
       <ProjectsSection />
       <SkillsSection />
       <ContactSection />
+      <SocialLinks /> 
     </header>
 
     <RouterView />
