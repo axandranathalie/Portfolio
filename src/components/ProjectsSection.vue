@@ -12,28 +12,38 @@ import ProjectCard from './ProjectCard.vue'
       <ProjectCard
         image="/src/assets/images/SkyVoyage.png"
         link="https://axandranathalie.github.io/SkyVoyage-webshop/"
-        description="En webshop med flygtema byggd i HTML, CSS och JS."
+        githubLink=https://github.com/axandranathalie/SkyVoyage-webshop
+        description="En responsiv webbapplikation byggd i Vue.js utifrån en färdig design i Figma.
+        Fokus låg på pixelperfekt implementation, responsivitet och interaktiv funktionalitet som t.ex. bokningsformulär,
+        recensioner och animationer."
         title="SkyVoyage"
       />
 
       <ProjectCard
         image="/src/assets/images/ToughCookie.png"
         link="https://axandranathalie.github.io/web-client-project/"
-        description="En receptsida jag skapade under kursen Web Client."
+        githubLink=https://github.com/axandranathalie/web-client-project
+        description="En responsiv onepager byggd med HTML och SCSS, baserad på en given design."
         title="Tough Cookie"
       />
 
       <ProjectCard
         image="/src/assets/images/FlawlessForever.png"
         link="https://axandranathalie.github.io/FlawlessForever-webshop/"
-        description="En stilren skönhetswebshop."
+        githubLink=https://github.com/axandranathalie/FlawlessForever-webshop
+        description="En enkel och responsiv webshop byggd i HTML, SASS och JavaScript.
+        Användare kan lägga till och ta bort produkter i varukorgen, justera antal,
+        välja betalningsmetod och skicka en order via ett validerat formulär."
         title="Flawless Forever"
       />
 
       <ProjectCard
         image="/src/assets/images/school-project-quiz.png"
         link="https://axandranathalie.github.io/school-project-quiz/"
-        description="Quizprojekt där jag använde JavaScript och DOM-manipulation."
+        githubLink=https://github.com/axandranathalie/school-project-quiz
+        description="Ett frågesportspel om geografi byggt i TypeScript och SASS.
+        Spelet visar 10 slumpade frågor åt gången, ger direkt feedback på svaren och
+        visar en sammanställning med poäng och tid när spelet är klart."
         title="Quiz"
       />
     </div>
