@@ -38,7 +38,7 @@ defineProps<{
     width: 100%;
     height: auto;
     display: block;
-    filter: brightness(0.7); 
+    filter: brightness(0.7);
     transition: filter 0.3s ease;
     border-radius: 6px;
   }

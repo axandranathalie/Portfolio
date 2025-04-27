@@ -20,7 +20,7 @@
         <h1>{{ $t('intro') }}</h1>
       </p>
     </div>
-    <div class="bottom-border"></div> 
+    <div class="bottom-border"></div>
   </header>
 </template>
 

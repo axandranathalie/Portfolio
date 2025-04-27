@@ -57,6 +57,7 @@ import ProjectCard from './ProjectCard.vue'
   padding: 0.5rem 1rem;
   font-size: 1.8rem;
   margin: 0 auto 2rem;
+  margin-bottom: 50px;
   width: 200px;
   text-align: center;
 
@@ -76,15 +77,16 @@ import ProjectCard from './ProjectCard.vue'
 .projects-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr); // två kort på rad som standard
   justify-items: center;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
+    grid-template-columns: 1fr; // ett kort på rad på mobil
   }
 }
+
 </style>

@@ -57,7 +57,7 @@
   display: inline-block;
   padding: 0.5rem 1rem;
   font-size: 1.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 40px;
   width: 200px;
   text-align: center;
 
