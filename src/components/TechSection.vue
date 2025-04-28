@@ -3,19 +3,19 @@
     <h2 class="tech-title">{{ $t('tech-heading') }}</h2>
     <div class="tech-icons">
       <div class="row">
-        <img src="/src/assets/svg/html-5-svgrepo-com.svg" alt="HTML" />
-        <img src="/src/assets/svg/css-3-svgrepo-com.svg" alt="CSS" />
-        <img src="/src/assets/svg/js-official-svgrepo-com.svg" alt="JavaScript" />
-        <img src="/src/assets/svg/typescript-official-svgrepo-com.svg" alt="TypeScript" />
-        <img src="/src/assets/svg/sass-svgrepo-com.svg" alt="Sass" />
-        <img src="/src/assets/svg/vue-svgrepo-com.svg" alt="Vue" />
+        <img src="/assets/svg/html-5-svgrepo-com.svg" alt="HTML" />
+        <img src="/assets/svg/css-3-svgrepo-com.svg" alt="CSS" />
+        <img src="/assets/svg/js-official-svgrepo-com.svg" alt="JavaScript" />
+        <img src="/assets/svg/typescript-official-svgrepo-com.svg" alt="TypeScript" />
+        <img src="/assets/svg/sass-svgrepo-com.svg" alt="Sass" />
+        <img src="/assets/svg/vue-svgrepo-com.svg" alt="Vue" />
       </div>
       <div class="row">
-        <img src="/src/assets/svg/vite-svgrepo-com.svg" alt="Vite" />
-        <img src="/src/assets/svg/sql-database-generic-svgrepo-com.svg" alt="SQL" />
-        <img src="/src/assets/svg/atom-svgrepo-com.svg" alt="Atom" />
-        <img src="/src/assets/svg/github-142-svgrepo-com.svg" alt="GitHub" />
-        <img src="/src/assets/svg/figma-svgrepo-com.svg" alt="Figma" />
+        <img src="/assets/svg/vite-svgrepo-com.svg" alt="Vite" />
+        <img src="/assets/svg/sql-database-generic-svgrepo-com.svg" alt="SQL" />
+        <img src="/assets/svg/atom-svgrepo-com.svg" alt="Atom" />
+        <img src="/assets/svg/github-142-svgrepo-com.svg" alt="GitHub" />
+        <img src="/assets/svg/figma-svgrepo-com.svg" alt="Figma" />
       </div>
     </div>
     <div class="bottom-border"></div>

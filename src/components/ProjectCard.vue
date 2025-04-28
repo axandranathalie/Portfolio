@@ -11,7 +11,7 @@ defineProps<{
 <template>
   <div class="project-card">
     <a :href="link" target="_blank" class="image-wrapper">
-      <img :src="image" alt="">
+      <img :src="image" alt="Project Image">
       <div class="overlay">
         <h3 class="project-title">{{ title }}</h3>
       </div>

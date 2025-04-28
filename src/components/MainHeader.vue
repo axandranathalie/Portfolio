@@ -6,22 +6,22 @@
     <div class="header-img-wrapper">
       <img
         class="header-img"
-        src="/src/assets/images/portfolio.img.jpg"
+        src="/assets/images/portfolio.img.jpg"
         alt="Bakgrundsbild med texten 'portfolio'"
       />
     </div>
     <div class="profile-container">
       <img
         class="profile-pic"
-        src="/src/assets/images/alexandra.jpeg"
+        src="/assets/images/alexandra.jpeg"
         alt="Alexandra Johansen"
       />
       <h1 class="intro-text">{{ $t('intro') }}</h1>
-
     </div>
     <div class="bottom-border"></div>
   </header>
 </template>
+
 
 <style lang="scss" scoped>
 header {

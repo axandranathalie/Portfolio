@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import ProjectCard from './ProjectCard.vue'
+import SkyVoyage from '/assets/images/SkyVoyage.png'
+import ToughCookie from '/assets/images/ToughCookie.png'
+import FlawlessForever from '/assets/images/FlawlessForever.png'
+import Quiz from '/assets/images/school-project-quiz.png'
+
 </script>
 
 <template>
@@ -8,45 +13,49 @@ import ProjectCard from './ProjectCard.vue'
       <h2>{{ $t('projects-heading') }}</h2>
     </div>
 
+    <!-- Wrapper för produktkorten -->
     <div class="projects-grid">
       <ProjectCard
-        image="/src/assets/images/SkyVoyage.png"
+        :image="SkyVoyage"
         link="https://axandranathalie.github.io/SkyVoyage-webshop/"
-        githubLink=https://github.com/axandranathalie/SkyVoyage-webshop
+        githubLink="https://github.com/axandranathalie/SkyVoyage-webshop"
         :description="$t('skyvoyage-description')"
         title="SkyVoyage"
       />
 
       <ProjectCard
-        image="/src/assets/images/ToughCookie.png"
+        :image="ToughCookie"
         link="https://axandranathalie.github.io/web-client-project/"
-        githubLink=https://github.com/axandranathalie/web-client-project
+        githubLink="https://github.com/axandranathalie/web-client-project"
         :description="$t('project-description')"
         title="Tough Cookie"
       />
 
       <ProjectCard
-        image="/src/assets/images/FlawlessForever.png"
+        :image="FlawlessForever"
         link="https://axandranathalie.github.io/FlawlessForever-webshop/"
-        githubLink=https://github.com/axandranathalie/FlawlessForever-webshop
+        githubLink="https://github.com/axandranathalie/FlawlessForever-webshop"
         :description="$t('shop-description')"
         title="Flawless Forever"
       />
 
       <ProjectCard
-        image="/src/assets/images/school-project-quiz.png"
+        :image="Quiz"
         link="https://axandranathalie.github.io/school-project-quiz/"
-        githubLink=https://github.com/axandranathalie/school-project-quiz
+        githubLink="https://github.com/axandranathalie/school-project-quiz"
         :description="$t('quiz-description')"
         title="Quiz"
       />
     </div>
+
   </section>
   <div class="bottom-border"></div>
 </template>
 
+
 <style scoped lang="scss">
 .projects-wrapper {
+
   padding: 2rem 1rem;
   text-align: center;
   display: flex;
@@ -71,6 +80,7 @@ import ProjectCard from './ProjectCard.vue'
     font-size: inherit;
   }
 }
+
 .bottom-border {
   width: 100%;
   height: 4px;
@@ -81,7 +91,7 @@ import ProjectCard from './ProjectCard.vue'
 .projects-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(2, 1fr); // två kort på rad som standard
+  grid-template-columns: repeat(2, 1fr); /* Standard: två kolumner på större skärmar */
   justify-items: center;
   max-width: 1200px;
   width: 100%;
@@ -89,8 +99,10 @@ import ProjectCard from './ProjectCard.vue'
   padding: 0 20px;
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr; // ett kort på rad på mobil
+    grid-template-columns: 1fr; /* På mobil: ett kort per rad */
   }
 }
+
+
 
 </style>
