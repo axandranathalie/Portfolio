@@ -1,4 +1,26 @@
 {
-  "intro": "Hi! My name is Alexandra and I am studying to become a frontend developer."
-}
+  "intro": "Hi! My name is Alexandra and I am studying to become a frontend developer.",
+  "about-heading": "About Me",
+  "about": "My background in preschool education, healthcare, and as an entrepreneur in the beauty industry has given me a strong interest in people — and a keen eye for detail. I am driven by creating stylish and user-friendly websites, where both functionality and design work together. Design and UX are areas I enjoy exploring, but my main focus is on growing as a developer and continuously learning new technologies. Accessibility is an important aspect for me, and I always strive to create websites that are accessible to all users.",
+  "tech-heading": "Tech",
+  "projects-heading": "My Projects",
+  "skyvoyage-description": "A responsive web application built in Vue.js based on a completed design in Figma. Focus was on pixel-perfect implementation, responsiveness, and interactive functionality such as booking forms, reviews, and animations.",
+  "project-description": "A responsive one-page built with HTML and SCSS, based on a given design.",
+  "shop-description": "A simple and responsive webshop built with HTML, SASS, and JavaScript. Users can add and remove products from the cart, adjust quantities, choose a payment method, and submit an order via a validated form.",
+  "quiz-description": "A geography quiz game built with TypeScript and SASS. The game shows 10 randomly selected questions at a time, provides instant feedback on answers, and shows a summary with score and time when the game is completed.",
+  "github-link-text": "🔗 View the project on GitHub",
+  "skills-heading": "Skills",
+  "technologies-languages-heading": "Technologies & Languages",
+  "responsive-design": "Responsive design",
+  "ui-ux-thinking": "UI/UX thinking",
+  "others-heading": "Others",
+  "accessibility": "Accessibility",
+  "agile-methodology": "Agile methodology",
+  "communication": "Communication",
+  "contact-me": "Contact Me"
 
+
+
+
+
+  }

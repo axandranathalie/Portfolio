@@ -4,11 +4,9 @@
 <template>
   <section class="about-wrapper">
     <div class="about-heading">
-      <h2>Om mig</h2>
+      <h2>{{ $t('about-heading') }}</h2>
     </div>
-    <p class="about-text">
-      Hej! Jag heter Alexandra och studerar till frontendutvecklare.  Min bakgrund inom förskola, vård och som egen företagare i skönhetsbranschen har gett mig ett starkt intresse för människor – och ett öga för detaljer.
-      Jag drivs av att skapa snygga och användarvänliga webbplatser, där både funktion och form samspelar. Design och UX är områden jag gärna utforskar, men mitt fokus ligger på att växa som utvecklare och ständigt lära mig nya tekniker.
+    <p class="about-text">{{ $t('about') }}
     </p>
   </section>
   <div class="bottom-border"></div>
@@ -29,7 +27,7 @@
   padding: 0.5rem 1rem;
   margin-top: 10px;
   margin-bottom: 30px;
-  width: 200px;
+  width: 280px;
   text-align: center;
 
   h2 {

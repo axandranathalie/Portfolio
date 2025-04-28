@@ -5,11 +5,11 @@
 <template>
   <section class="skills-section">
     <div class="skills-heading">
-      <h2>Färdigheter</h2>
+      <h2>{{ $t('skills-heading') }}</h2>
     </div>
     <div class="skills-content">
       <div class="skills-group">
-        <h3>Tekniker & Språk</h3>
+        <h3>{{ $t('technologies-languages-heading') }}</h3>
         <ul>
           <li>HTML</li>
           <li>CSS / Sass</li>
@@ -25,18 +25,19 @@
         <h3>Design & UX</h3>
         <ul>
           <li>Figma</li>
-          <li>Responsiv design</li>
-          <li>UI/UX-tänk</li>
+          <li>{{ $t('responsive-design') }}</li>
+          <li>{{ $t('ui-ux-thinking') }}</li>
+
         </ul>
       </div>
 
       <div class="skills-group">
-        <h3>Övrigt</h3>
+        <h3>{{ $t('others-heading') }}</h3>
         <ul>
-          <li>Tillgänglighet</li>
-          <li>Agilt arbetssätt</li>
+          <li>{{ $t('accessibility') }}</li>
+          <li>{{ $t('agile-methodology') }}</li>
           <li>Scrum</li>
-          <li>Kommunikation</li>
+          <li>{{ $t('communication') }}</li>
         </ul>
       </div>
     </div>
@@ -59,7 +60,7 @@
   padding: 0.5rem 1rem;
   font-size: 1.8rem;
   margin-bottom: 40px;
-  width: 200px;
+  width: 280px;
   text-align: center;
 
   h2 {

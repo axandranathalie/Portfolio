@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard.vue'
 <template>
   <section class="projects-wrapper">
     <div class="projects-heading">
-      <h2>Mina projekt</h2>
+      <h2>{{ $t('projects-heading') }}</h2>
     </div>
 
     <div class="projects-grid">
@@ -13,9 +13,7 @@ import ProjectCard from './ProjectCard.vue'
         image="/src/assets/images/SkyVoyage.png"
         link="https://axandranathalie.github.io/SkyVoyage-webshop/"
         githubLink=https://github.com/axandranathalie/SkyVoyage-webshop
-        description="En responsiv webbapplikation byggd i Vue.js utifrån en färdig design i Figma.
-        Fokus låg på pixelperfekt implementation, responsivitet och interaktiv funktionalitet som t.ex. bokningsformulär,
-        recensioner och animationer."
+        :description="$t('skyvoyage-description')"
         title="SkyVoyage"
       />
 
@@ -23,7 +21,7 @@ import ProjectCard from './ProjectCard.vue'
         image="/src/assets/images/ToughCookie.png"
         link="https://axandranathalie.github.io/web-client-project/"
         githubLink=https://github.com/axandranathalie/web-client-project
-        description="En responsiv onepager byggd med HTML och SCSS, baserad på en given design."
+        :description="$t('project-description')"
         title="Tough Cookie"
       />
 
@@ -31,9 +29,7 @@ import ProjectCard from './ProjectCard.vue'
         image="/src/assets/images/FlawlessForever.png"
         link="https://axandranathalie.github.io/FlawlessForever-webshop/"
         githubLink=https://github.com/axandranathalie/FlawlessForever-webshop
-        description="En enkel och responsiv webshop byggd i HTML, SASS och JavaScript.
-        Användare kan lägga till och ta bort produkter i varukorgen, justera antal,
-        välja betalningsmetod och skicka en order via ett validerat formulär."
+        :description="$t('shop-description')"
         title="Flawless Forever"
       />
 
@@ -41,9 +37,7 @@ import ProjectCard from './ProjectCard.vue'
         image="/src/assets/images/school-project-quiz.png"
         link="https://axandranathalie.github.io/school-project-quiz/"
         githubLink=https://github.com/axandranathalie/school-project-quiz
-        description="Ett frågesportspel om geografi byggt i TypeScript och SASS.
-        Spelet visar 10 slumpade frågor åt gången, ger direkt feedback på svaren och
-        visar en sammanställning med poäng och tid när spelet är klart."
+        :description="$t('quiz-description')"
         title="Quiz"
       />
     </div>
@@ -68,7 +62,7 @@ import ProjectCard from './ProjectCard.vue'
   font-size: 1.8rem;
   margin: 0 auto 2rem;
   margin-bottom: 50px;
-  width: 200px;
+  width: 280px;
   text-align: center;
 
   h2 {

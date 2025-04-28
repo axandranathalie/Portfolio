@@ -1,4 +1,25 @@
 {
-  "intro": "Hej! Jag heter Alexandra och studerar till frontendutvecklare."
-}
+  "intro": "Hej! Jag heter Alexandra och studerar till frontendutvecklare.",
+  "about-heading": "Om mig",  
+  "about": "Min bakgrund inom förskola, vård och som egen företagare i skönhetsbranschen har gett mig ett starkt intresse för människor – och ett öga för detaljer. Jag drivs av att skapa snygga och användarvänliga webbplatser, där både funktion och form samspelar. Design och UX är områden jag gärna utforskar, men mitt fokus ligger på att växa som utvecklare och ständigt lära mig nya tekniker. Tillgänglighet är en viktig aspekt för mig, och jag strävar alltid efter att skapa webbplatser som är tillgängliga för alla användare.",
+  "tech-heading": "Tekniker",
+  "projects-heading": "Mina projekt",
+  "skyvoyage-description": "En responsiv webbapplikation byggd i Vue.js utifrån en färdig design i Figma. Fokus låg på pixelperfekt implementation, responsivitet och interaktiv funktionalitet som t.ex. bokningsformulär, recensioner och animationer.",
+  "project-description": "En responsiv onepager byggd med HTML och SCSS, baserad på en given design.",
+  "shop-description": "En enkel och responsiv webshop byggd i HTML, SASS och JavaScript. Användare kan lägga till och ta bort produkter i varukorgen, justera antal, välja betalningsmetod och skicka en order via ett validerat formulär.",
+  "quiz-description": "Ett frågesportspel om geografi byggt i TypeScript och SASS. Spelet visar 10 slumpade frågor åt gången, ger direkt feedback på svaren och visar en sammanställning med poäng och tid när spelet är klart.",
+  "github-link-text": "🔗 Se projektet på GitHub",
+  "skills-heading":"Färdigheter",
+  "technologies-languages-heading": "Tekniker & Språk",
+  "responsive-design": "Responsiv design",
+  "ui-ux-thinking": "UI/UX-tänk",
+  "others-heading": "Övrigt",
+  "accessibility": "Tillgänglighet",
+  "agile-methodology": "Agilt arbetssätt",
+  "communication": "Kommunikation",
+  "contact-me": "Kontakta mig"
 
+
+
+
+}

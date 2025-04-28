@@ -4,7 +4,7 @@
 <template>
   <section class="contact-wrapper">
     <div class="contact-heading">
-      <h2>Kontakta mig</h2>
+      <h2>{{ $t('contact-me') }}</h2>
     </div>
     <div class="contact-info">
       <p>Alexandra Johansen</p>
@@ -28,6 +28,7 @@
   display: inline-block;
   padding: 0.5rem 1rem;
   font-size: 1.8rem;
+  width: 280px;
   margin-bottom: 1.5rem;
 
   h2 {

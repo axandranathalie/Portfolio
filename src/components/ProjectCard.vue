@@ -17,7 +17,8 @@ defineProps<{
       </div>
     </a>
     <p class="project-description">{{ description }}</p>
-    <a :href="githubLink" target="_blank" class="github-link">🔗 Se projektet på GitHub
+    <a :href="githubLink" target="_blank" class="github-link">
+      {{ $t('github-link-text') }}
     </a>
   </div>
 </template>

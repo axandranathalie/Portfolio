@@ -1,6 +1,6 @@
 <template>
   <section class="tech-section">
-    <h2 class="tech-title">Tekniker</h2>
+    <h2 class="tech-title">{{ $t('tech-heading') }}</h2>
     <div class="tech-icons">
       <div class="row">
         <img src="/src/assets/svg/html-5-svgrepo-com.svg" alt="HTML" />
@@ -36,7 +36,7 @@
   font-size: 1.8rem;
   margin-bottom: 40px;
   margin-top: 20px;
-  width: 200px;
+  width: 280px;
   text-align: center;
 }
 

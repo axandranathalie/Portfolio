@@ -72,7 +72,8 @@ header {
     padding: 0.5rem 1rem;
     border-radius: 8px;
     max-width: 90%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
 }
 
