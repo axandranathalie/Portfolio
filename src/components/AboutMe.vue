@@ -27,7 +27,7 @@
   padding: 0.5rem 1rem;
   margin-top: 10px;
   margin-bottom: 30px;
-  width: 281px;
+  width: 280px;
   text-align: center;
 
   h2 {
