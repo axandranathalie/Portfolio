@@ -16,9 +16,8 @@
         src="/src/assets/images/alexandra.jpeg"
         alt="Alexandra Johansen"
       />
-      <p class="intro-text">
-        <h1>{{ $t('intro') }}</h1>
-      </p>
+      <h1 class="intro-text">{{ $t('intro') }}</h1>
+
     </div>
     <div class="bottom-border"></div>
   </header>
@@ -55,20 +54,20 @@ header {
   padding: 1rem;
 
   .profile-pic {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border: 4px solid #8B7E65;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  margin-top: -80px;
-  margin-bottom: 1rem;
-  position: relative;
-  z-index: 2;
-}
-
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 4px solid #8B7E65;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: -80px;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+  }
 
   .intro-text {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: bold;
     color: #000;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -81,6 +80,25 @@ header {
   width: 100%;
   height: 4px;
   background-color: #8B7E65;
+}
+
+@media (min-width: 768px) {
+  .profile-container .profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+  }
+  .intro-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-container .profile-pic {
+    width: 180px;
+    height: 180px;
+    margin-top: -120px;
+  }
 }
 
 </style>

@@ -33,6 +33,7 @@
       <div class="skills-group">
         <h3>Övrigt</h3>
         <ul>
+          <li>Tillgänglighet</li>
           <li>Agilt arbetssätt</li>
           <li>Scrum</li>
           <li>Kommunikation</li>
