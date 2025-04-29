@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import cv from '/assets/cv/CV.pdf'
+</script>
+
 <template>
   <div class="social-links">
     <a href="https://github.com/axandranathalie" target="_blank" aria-label="GitHub">
@@ -6,11 +10,7 @@
     <a href="https://linkedin.com/in/alexandra-johansen-245422251" target="_blank" aria-label="LinkedIn">
       <img src="/assets/svg/linkedin-svgrepo-com.svg" alt="LinkedIn" />
     </a>
-    <a
-      href="/Portfolio/assets/cv/CV.pdf"
-      target="_blank"
-      aria-label="CV"
-    >
+    <a :href="cv" target="_blank" aria-label="CV">
       <img src="/assets/svg/cv-file-interface-symbol-svgrepo-com.svg" alt="CV" />
     </a>
   </div>
