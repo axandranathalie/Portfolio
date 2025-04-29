@@ -1,20 +1,36 @@
-# Portfolio
+# 🎨 Alexandra Johansen's Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my personal portfolio built with Vue 3, TypeScript, and Vite. It showcases selected projects I’ve worked on during my frontend development studies at Medieinstitutet.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
+## 🔗 Portfolio Link
+https://axandranathalie.github.io/Portfolio/
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🔧 Technologies Used
 
-## Project Setup
+- Vue 3
+- TypeScript
+- Vite
+- SCSS
+- Vue I18n – for translation between Swedish and English
+- svgrepo  – for icons
+
+
+
+# 💼 Contents
+
+In my portfolio, you’ll find:
+
+- 🎮 Several of my school projects with links to GitHub and live demos
+- 📝 A downloadable PDF of my CV
+- 📱 Responsive design tailored for both mobile and desktop
+
+
+
+## 🚀 Getting Started
 
 ```sh
 pnpm install
