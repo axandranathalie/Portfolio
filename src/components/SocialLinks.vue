@@ -6,14 +6,16 @@
     <a href="https://linkedin.com/in/alexandra-johansen-245422251" target="_blank" aria-label="LinkedIn">
       <img src="/assets/svg/linkedin-svgrepo-com.svg" alt="LinkedIn" />
     </a>
-    <a href="mailto:alexandra.johansen@medieinstitutet.se" aria-label="Email">
-      <img src="/assets/svg/mail-svgrepo-com.svg" alt="Email" />
-    </a>
-    <a href="tel:+46722711198" aria-label="Phone">
-      <img src="/assets/svg/phone-rounded-svgrepo-com.svg" alt="Phone" />
+    <a
+      href="/Portfolio/assets/cv/CV.pdf"
+      target="_blank"
+      aria-label="CV"
+    >
+      <img src="/assets/svg/cv-file-interface-symbol-svgrepo-com.svg" alt="CV" />
     </a>
   </div>
 </template>
+
 
 <style scoped lang="scss">
 .social-links {
