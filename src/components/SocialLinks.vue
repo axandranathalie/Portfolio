@@ -35,7 +35,7 @@ import cv from '/assets/cv/CV.pdf'
       object-fit: contain;
 
       &:hover {
-        opacity: 0.7; /* Exempel på hover-effekt */
+        opacity: 0.7; 
       }
     }
   }

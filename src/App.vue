@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import MainHeader from "./components/MainHeader.vue";
-import LanguageSwitcher from "./components/LanguageSwitcher.vue";
 import AboutMe from "./components/AboutMe.vue";
 import TechSection from "./components/TechSection.vue";
 import ProjectsSection from "./components/ProjectsSection.vue";
@@ -14,13 +13,12 @@ import SocialLinks from "./components/SocialLinks.vue";
   <div>
     <header>
       <MainHeader />
-      <LanguageSwitcher />
       <AboutMe />
       <TechSection />
       <ProjectsSection />
       <SkillsSection />
       <ContactSection />
-      <SocialLinks /> 
+      <SocialLinks />
     </header>
 
     <RouterView />
